@@ -59,21 +59,6 @@ p{
   }
   /*hamburger*/
 
-/*nav*/
-.topLogo {
-    position: relative;
-    top: -500px;
-    height: 100px;
-    
-    
-}
-.logo{
-    position: relative;
-    top: 450px;
-    max-width: 20%;
-    height: 200px;
-}
-
 
 .topnavContainer{
     height: 100px;
@@ -81,8 +66,6 @@ p{
     margin-bottom: 50px;
 }
 .topNav {
-    position: relative;
-    top: -80px;;
     display: flex;
     text-align: center;
     float: right;
@@ -107,7 +90,6 @@ p{
 .topNav a{
     text-decoration: none;
 }
-/*nav*/
 
 
 
@@ -123,42 +105,43 @@ p{
 
 
 
-/*footer*/
-footer{
-    position: relative;
-    top: 200px;
-    background-color: black;
+
+
+
+
+
+
+  @media (max-width: 2561px){
+    /*Top nav*/
+    .topnav li a {
+      font-size: 12px;
+    }
+    li button {
+      font-size: 13px;
+    }
+    .search {
+      display: none;
+    }
+    .sb {
+     position: relative;
+     top: -11px;
+     background-color: #0b3a40;
+    }
+    .sb button {
+      background-color: #0b3a40;
+      color: #ffffff;
+    }
+    /*Top nav*/
+    
+    /*Main navigation*/
+    .topNav {
+      display: none;
+    }
+  
 }
 
-.footer{
-    margin-left: 150px;
-    margin-right: 150px;
-    display: flex;
-    flex-wrap: wrap;
-}
-.footer h3{
-    color: #E6E6E6;
-}
-.aboutUsFooter{
-    width: 400px;
-    margin-right: 200px;
-}
-.newsLetterFooter{
-    width: 300px;
-    margin-right: 100px;
-}
-.followUs{
-    width: 100px;
-}
-.copy{
-    padding-top: 100px;
-    display: flex;
-    justify-content: center;
-}
-.copyright p{
-    color: #98BF45;
-}
-/*footer*/
+
+
 
 @media (max-width: 2561px){
     /*Top nav*/
@@ -171,6 +154,20 @@ footer{
     }
     .hamburger-label{
         display: none;
+    }
+  
+}
+
+@media (max-width: 2561px){
+    /*Top nav*/
+    /*Top nav*/
+    
+    /*Main navigation*/
+    .topNav {
+      display: none;
+    }
+    .hamburger-label{
+        top: 100px;
     }
   
 }

@@ -59,30 +59,26 @@ p{
   }
   /*hamburger*/
 
+
+
 /*nav*/
-.topLogo {
+.topLogo{
     position: relative;
-    top: -500px;
-    height: 100px;
-    
-    
+    top: 180px;
+    max-width: 50%;
 }
 .logo{
-    position: relative;
-    top: 450px;
-    max-width: 20%;
-    height: 200px;
+    max-width: 50%;
 }
-
-
 .topnavContainer{
+    position: relative;
+    top: -280px;
     height: 100px;
     margin-top: 10px;
     margin-bottom: 50px;
 }
 .topNav {
-    position: relative;
-    top: -80px;;
+ 
     display: flex;
     text-align: center;
     float: right;
@@ -109,24 +105,19 @@ p{
 }
 /*nav*/
 
+.frontPage{
+    position: relative;
+    top: -250px;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-/*footer*/
 footer{
     position: relative;
-    top: 200px;
+    top: 100px;
     background-color: black;
 }
 
@@ -158,19 +149,51 @@ footer{
 .copyright p{
     color: #98BF45;
 }
-/*footer*/
 
-@media (max-width: 2561px){
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  @media (max-width: 2001px){
     /*Top nav*/
+    .topnav li a {
+      font-size: 12px;
+    }
+    li button {
+      font-size: 13px;
+    }
+    .search {
+      display: none;
+    }
+    .sb {
+     position: relative;
+     top: -11px;
+     background-color: #0b3a40;
+    }
+    .sb button {
+      background-color: #0b3a40;
+      color: #ffffff;
+    }
     /*Top nav*/
     
     /*Main navigation*/
+    
     .topNav {
       display: none;
-      display: inline-flex;
     }
-    .hamburger-label{
-        display: none;
-    }
-  
 }
