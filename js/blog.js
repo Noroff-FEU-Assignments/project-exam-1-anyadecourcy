@@ -31,18 +31,15 @@ function createHTML(details){
                  <h1>${detail.title.rendered}</h1>
             </a>
             <date>${detail.date}</date>
+          
             <p>${detail.excerpt.rendered}</p>
 
-           
+
             
             `
 
 
-
-
     })
-
-
    
 }
 

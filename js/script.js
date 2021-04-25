@@ -1,31 +1,28 @@
-//const frontPageImg = document.querySelector(".homepage");
-//const url = "http://localhost/project-exam1/wordpress-5.7/wordpress/wp-json/wp/v2/pages";
-//const url2 = "http://localhost/project-exam1/wordpress-5.7/wordpress/wp-json/wp/v2/media";
-//const url3 = "http://localhost/project-exam1/wordpress-5.7/wordpress/wp-json/wp/v2/categories/";
-//const carousel = document.querySelector(".carousel");
+const homePage = document.querySelector(".homepage");
+const contactPage = document.querySelector(".contact");
 
+const url = "http://localhost/project-exam1/wordpress-5.7/wordpress/wp-json/wp/v2/pages";
 
-
-
-
-
-
-
-
-/*async function getData (){
+async function getData (){
     try{
-        const response = await fetch(url3);
+        const response = await fetch(url);
         const details= await response.json();
         console.log(details);
         //createHTML(details);
-        //console.log(details);
+    
         
         
-        //const facts = details;
-        //console.log(facts);
-        //home (facts[5]);
+        const homePageDetails = details[4];
+      
         
-        //console.log(home);
+        console.log(homePageDetails);
+        home (homePageDetails);
+       
+        
+        //contact(facts[1]);
+        //console.log(contact);
+        
+       
     }
     catch (error){
         console.log(error);
@@ -33,28 +30,33 @@
 }
 getData();
 
-/*function home(home2){
-    //console.log(home2);
-    //console.log(home2.c.rendered);
 
 
-    //frontPageImg.innerHTML +=
-            `    <div class= "startImg"${home2.description.rendered}</div>
-            `
-}*/
-
-/*function createHTML(homepage){
-    console.log(homepage);
-    const startImg = homepage[0].description.rendered;
-    console.log(startImg);
-
-    homepage.forEach(function(home){
-        
-        frontPageImg.innerHTML +=
-        `    <div ${startImg}</div>
+function home(homepage){
+    homePage.innerHTML = 
         `
-    })
-}*/
+            <div>${homepage.content.rendered}</div>
+        
+        `
+
+       
+}
+
+function contact(contactpage){
+    //console.log(contactpage.content.rendered);
+    contactpage.innerHTML = 
+    `
+    <div>HI</div>
+    `
+
+    
+    
+}
+
+
+
+
+
 
 
 
