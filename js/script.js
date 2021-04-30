@@ -1,7 +1,9 @@
 const homePage = document.querySelector(".homepage");
+const carousel = document.querySelector(".carousel");
 const contactPage = document.querySelector(".contact");
 
-const url = "http://localhost/project-exam1/wordpress-5.7/wordpress/wp-json/wp/v2/pages";
+
+const url = "https://anyadecourcy.no/wp-json/wp/v2/pages";
 
 async function getData (){
     try{
@@ -35,23 +37,31 @@ getData();
 function home(homepage){
     homePage.innerHTML = 
         `
-            <div>${homepage.content.rendered}</div>
-        
+            <div>${homepage.content.rendered}</div>  
         `
-
-       
+   
 }
 
-function contact(contactpage){
+
+
+
+
+
+
+/*function contact(contactpage){
     //console.log(contactpage.content.rendered);
     contactpage.innerHTML = 
     `
     <div>HI</div>
     `
 
+    mover.innerHTML = 
+    `
+    <div>${homepage.excerpt.rendered}
+    </div>
+    `
     
-    
-}
+}*/
 
 
 

@@ -27,6 +27,7 @@ function createHTML(details){
 
         blogContainer.innerHTML += 
             `
+            
             <a href = "blog-info.html?id=${detail.id}">
                  <h1>${detail.title.rendered}</h1>
             </a>
@@ -34,9 +35,9 @@ function createHTML(details){
           
             <p>${detail.excerpt.rendered}</p>
 
-
             
             `
+    
 
 
     })

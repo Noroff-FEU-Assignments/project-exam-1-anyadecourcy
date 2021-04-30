@@ -7,6 +7,7 @@
     <title>Daily Treasures/Contact</title>
     <meta name="description" content="Daily Treasures: Daily nature blog posts contact page. Let us what you'd like to see more of."/>
     <link rel="stylesheet" href="/css/index.css">
+    <link rel="stylesheet" href="/css/contact.css">
     <link rel="stylesheet" href="https://use.typekit.net/qzr3gvx.css">
 
 </head>
@@ -36,34 +37,83 @@
 <!--main content-->
 <main>
     <div class="contact"></div>
+
+    <form id="contactForm">
+
+        <div>
+            <label>
+                <input name="fullName" id="fullName" placeholder="Name" />
+            </label>
+            <div class="form-error" id="fullNameError">Please enter a name of minimum 5 characters</div>
+        </div>
+
+        <div>
+            <label>
+                <input name="email" id="email" placeholder="Email"/>
+            </label>
+            <div class="form-error" id="emailError">Please enter a valid email address</div>
+        </div>
+
+        <div>
+            <label>
+                <input name="subject" id="subject" placeholder="Subject"/>
+            </label>
+            <div class="form-error" id="subjectError">Your subject must be minimum 15 characters</div>
+        </div>
+
+        <div>
+            <textarea id="message" rows="15" cols="52" maxlength="1000" placeholder="Message..."></textarea>
+            <div class="form-error" id="messageError">Your subject must be minimum 15 characters</div>
+        </div>
+
+        
+
+        <button>Submit</button>
+    </form>
+
+    
+
 </main>
    
 <!--main content-->
 
 
 <!--footer-->
-    <footer>
-        <section class="footer">
-            <div class="aboutUsFooter">
-                <h3>About us</h3>
-                <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia 
-                    animi, id est laborum et dolorum fuga.</p>
-            </div>
-            <div class="newsLetterFooter">
-                <h3>Stay updated</h3>
-                <p>Enter email</p>
-            </div>
-            <div class="followUs">
-                <h3>Follow us</h3>
-            </div>
-        </section>
-        <section class="copy"> 
-            <div class="copyright">
-                <p>&copy;2021 Daily Treasures AS. All rights reserved.</p> 
-            </div>
-        </section>
-    </footer>
+<footer>
+    <section class="footer">
+        <div class="aboutUsFooter">
+            <h3>About us</h3>
+            <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia 
+                animi, id est laborum et dolorum fuga.</p>
+        </div>
+        <div class="newsLetterFooter">
+            <h3>Stay updated</h3>
+            <p>Sign up for our newsletters</p>
+            <label>
+                <input name="email" id="email" placeholder="Email"/>
+                <button class="submit" type="submit">SEND</button>
+            </label>
+        </div>
+
+        <div class="followUs">
+            <h3>Follow us</h3>
+            
+            <img src="https://img.icons8.com/small/32/ffffff/facebook-new.png"/>
+            <img src="https://img.icons8.com/small/32/ffffff/instagram-new.png"/>
+            <img src="https://img.icons8.com/small/32/ffffff/twitter.png"/>
+            <img src="https://img.icons8.com/small/32/ffffff/linkedin.png"/>
+                
+        </div>
+    </section>
+    <section class="copy"> 
+        <div class="copyright">
+            <p>&copy;2021 Daily Treasures AS. All rights reserved.</p> 
+        </div>
+    </section>
+    <a href="https://icons8.com/icon/">All sosial media icons by Icons8</a>
+</footer>
 <!--footer-->  
 <script src="/js/contact.js"></script>
+
 </body>
 </html>
