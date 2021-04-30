@@ -14,7 +14,7 @@ async function getData (){
     
         
         
-        const homePageDetails = details[4];
+        const homePageDetails = details[0];
       
         
         console.log(homePageDetails);
