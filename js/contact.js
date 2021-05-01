@@ -1,5 +1,5 @@
 const contactPage = document.querySelector(".contact");
-const url = "http://localhost/project-exam1/wordpress-5.7/wordpress/wp-json/wp/v2/pages";
+const url = "https://anyadecourcy.no/wp-json/wp/v2/pages";
 
 
 
@@ -9,7 +9,7 @@ async function getData (){
         const details= await response.json();
         console.log(details);
     
-        const contactPageDetails = details[1];
+        const contactPageDetails = details[0];
         contact (contactPageDetails);
          
     }

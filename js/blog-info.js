@@ -7,7 +7,7 @@ const id = params.get("id");
 
 
 
-const url = "http://localhost/project-exam1/wordpress-5.7/wordpress/wp-json/wp/v2/posts/" + id;
+const url = "https://anyadecourcy.no/wp-json/wp/v2/posts/" + id;
 console.log(url);
 
 

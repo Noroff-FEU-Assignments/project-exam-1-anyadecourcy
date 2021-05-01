@@ -1,5 +1,5 @@
 const blogContainer = document.querySelector(".blogPosts");
-const url = "http://localhost/project-exam1/wordpress-5.7/wordpress/wp-json/wp/v2/posts";
+const url = "https://anyadecourcy.no/wp-json/wp/v2/posts";
 let docTitle=document.title;
 
 async function fetchPost (){
@@ -19,7 +19,7 @@ async function fetchPost (){
 fetchPost();
 
 function createHTML(details){
-    //console.log(details);
+    console.log(details);
 
 
     details.forEach(function(detail){
