@@ -1,0 +1,46 @@
+
+.blogPosts{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    justify-content: space-evenly;
+    margin-bottom: 200px;
+    background-color: white;
+   
+}
+
+.data{
+    margin-top: 50px;
+    width: 500px;
+    padding-top: 20px;
+    padding-left: 60px;
+    padding-right: 60px;
+    padding-bottom: 20px;
+}
+
+.data a{
+    text-decoration: none;
+   
+}
+
+.miniPicture{
+    position: relative;
+    left: -40px;
+}
+.miniPicture p{
+    display: none;
+}
+.miniPicture blockquote{
+    display: none;
+}
+
+.miniPicture img{
+    margin-left: 0;
+    width: 400px;
+    height: 300px;
+}
+
+.data:hover{
+    background-color: #F2F2F2;
+}
+

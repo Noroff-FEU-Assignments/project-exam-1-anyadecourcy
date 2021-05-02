@@ -198,6 +198,9 @@ footer .submit{
     left: -10px;
     cursor: pointer;
 }
+.submit:hover{
+    background-color: #98BF45;
+}
 footer #email{
     padding: 10px 20px;
     border: none;
