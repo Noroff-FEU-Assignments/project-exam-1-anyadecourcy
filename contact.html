@@ -7,8 +7,22 @@
     <title>Daily Treasures/Contact</title>
     <meta name="description" content="Daily Treasures: Daily nature blog posts contact page. Let us what you'd like to see more of."/>
     <link rel="stylesheet" href="/css/index.css">
+    <link rel="stylesheet" href="/css/contact.css">
    
     <link rel="stylesheet" href="https://use.typekit.net/qzr3gvx.css">
+
+
+    <!-- Hotjar Tracking Code for https://dailytreasures.netlify.app/index.html -->
+<script>
+    (function(h,o,t,j,a,r){
+        h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};
+        h._hjSettings={hjid:2379643,hjsv:6};
+        a=o.getElementsByTagName('head')[0];
+        r=o.createElement('script');r.async=1;
+        r.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv;
+        a.appendChild(r);
+    })(window,document,'https://static.hotjar.com/c/hotjar-','.js?sv=');
+</script>
 
 </head>
 <body>
@@ -36,10 +50,22 @@
 
 <!--main content-->
 <main>
+    <h1 class="firsth1">CONTACT</h1>
     <div class="contact"></div>
 
-    <form id="contactForm">
+    <div>
+        <ul class="cInfo">
+            <li><img src="https://img.icons8.com/carbon-copy/100/26e07f/building.png"/>Oslo, Norway</li>
+            <li><img src="https://img.icons8.com/windows/96/26e07f/phone.png"/>+47 645 286212</li>
+            <li><img src="https://img.icons8.com/fluent-systems-regular/96/26e07f/email.png"/>support@dailytreasures.com</li>
+        </ul>
+        </div>
 
+        <h2>Send us a message</h2>
+    <form id="contactForm">
+        
+
+        
         <div>
             <label>
                 <input name="fullName" id="fullName" placeholder="Name" />
@@ -61,8 +87,8 @@
             <div class="form-error" id="subjectError">Your subject must be minimum 15 characters</div>
         </div>
 
-        <div>
-            <textarea id="message" rows="15" cols="52" maxlength="1000" placeholder="Message..."></textarea>
+        <div class="message">
+            <textarea id="message" rows="15" cols="65" maxlength="1000" placeholder="Message..."></textarea>
             <div class="form-error" id="messageError">Your subject must be minimum 15 characters</div>
         </div>
 

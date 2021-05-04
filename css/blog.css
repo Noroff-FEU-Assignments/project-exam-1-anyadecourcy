@@ -1,4 +1,6 @@
-
+.h1b{
+    margin-left: 10px;
+}
 .blogPosts{
     display: flex;
     flex-wrap: wrap;

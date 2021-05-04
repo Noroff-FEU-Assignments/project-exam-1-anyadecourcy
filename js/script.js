@@ -37,7 +37,8 @@ getData();
 function home(homepage){
     homePage.innerHTML = 
         `
-            <div>${homepage.content.rendered}</div>  
+            <div>${homepage.content.rendered}</div> 
+        
         `
    
 }

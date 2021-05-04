@@ -1,0 +1,37 @@
+.firsth1{
+    margin-left: 50px;
+}
+
+.about .wp-image-189 {
+    width: 100%;
+    height: 700px;
+}
+   
+.about p {
+    position: relative;
+    top: -20px;
+    margin-left: 40px;
+    margin-right: 40px;
+    padding: 50px;
+}
+
+
+.blocks-gallery-grid{
+    position: relative;
+    top: -100px;
+    display: flex;
+    padding: 0;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+}
+.about li{
+ padding: 40px;
+    list-style: none;
+}
+li img{
+    list-style: none;
+    width: 350px;
+    height: 300px;
+}
+
