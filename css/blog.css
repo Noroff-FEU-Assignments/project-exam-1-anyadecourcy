@@ -60,7 +60,10 @@
    }
 }
 
-@media(min-width: 425px){
+@media(min-width: 375px){
+    .hamburger-label{
+        left: 220px;
+    }
     .blogPosts{
     background-color: transparent;
     width: 100px;
@@ -90,12 +93,3 @@
   
  }
 
- @media(min-width: 375px) and (max-width:484px){
-     header{
-         background-color: chartreuse;
-     }
-     main{
-         background-color: cadetblue;
-     }
-  
- }
