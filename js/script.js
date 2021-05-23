@@ -40,6 +40,7 @@ function home(homepage){
             <div>${homepage.content.rendered}</div> 
         
         `
+
    
 }
 
@@ -49,20 +50,7 @@ function home(homepage){
 
 
 
-/*function contact(contactpage){
-    //console.log(contactpage.content.rendered);
-    contactpage.innerHTML = 
-    `
-    <div>HI</div>
-    `
 
-    mover.innerHTML = 
-    `
-    <div>${homepage.excerpt.rendered}
-    </div>
-    `
-    
-}*/
 
 
 

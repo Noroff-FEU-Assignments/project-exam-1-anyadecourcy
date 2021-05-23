@@ -5,11 +5,8 @@ const id = params.get("id");
 
 
 
-
-
 const url = "https://anyadecourcy.no/wp-json/wp/v2/posts/" + id;
 console.log(url);
-
 
 async function getBlogDetails(){
     try{
@@ -38,3 +35,22 @@ function createHTML(blog){
     
     `
 }
+
+blogInfoContainer.onclick = function (){
+    blogInfoContainer.style.transform = "scale(1.4)";
+}
+
+function resetImg() {
+    blogInfoContainer.style.transform = "scale(1)";
+    blogInfoContainer.style.transition = "transform 0.25s ease";
+  }
+
+   
+
+
+
+
+
+
+
+

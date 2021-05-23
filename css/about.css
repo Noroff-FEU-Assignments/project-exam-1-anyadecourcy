@@ -35,3 +35,146 @@ li img{
     height: 300px;
 }
 
+
+@media(min-width: 1024px) and (max-width: 1439px){
+    .about .wp-image-189{
+        width: 680px;
+        height: 550px;
+    }
+
+    li img{
+        width: 580px;
+        height: 450px;
+    }
+    
+}
+
+@media(min-width: 768px) and (max-width: 1023px){
+   
+    .about .wp-image-189{
+        width: 640px;
+        height: 590px;
+    }
+
+    li img{
+        width: 550px;
+        height: 450px;
+    }
+
+    h1{
+        font-size: 20px;
+    }
+
+    p{
+        font-size: 15px;
+    }
+}
+
+@media(min-width: 425px) and (max-width: 767px){
+    
+    main{
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+    .about .wp-image-189{
+        width: 340px;
+        height: 290px;
+    }
+    
+    .about p{
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    li img{
+        width: 350px;
+    }
+
+    .about p{
+        padding: 40px;
+    }
+
+
+    h1{
+        font-size: 20px;
+    }
+    
+    p{
+        font-size: 12px;
+    }
+}
+
+@media(min-width: 374px)and (max-width: 424px){
+    .hamburger-label{
+        left: 220px;
+    }
+
+    main{
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+    .about .wp-image-189{
+        width: 290px;
+        height: 250px;
+    }
+    
+    .about p{
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    li img{
+        width: 250px;
+    }
+
+    .about p{
+        padding: 40px;
+    }
+
+  
+    h1{
+        font-size: 20px;
+    }
+
+   
+    p{
+        font-size: 12px;
+    }
+}
+
+@media(min-width: 320px)and (max-width: 373px){
+    .hamburger-label{
+        left: 170px;
+    }
+
+    main{
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+    .about .wp-image-189{
+        width: 250px;
+        height: 200px;
+    }
+    
+    .about p{
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    h1{
+        font-size: 20px;
+    }
+
+    li img{
+        width: 250px;
+    }
+
+    .about p{
+        padding: 40px;
+    }
+
+    
+    p{
+        font-size: 12px;
+    }
+}
